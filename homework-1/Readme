@@ -1,0 +1,58 @@
+# 📘 PHP Homework 1
+
+## 📌 Overview
+
+This project contains basic PHP programs demonstrating core concepts such as **arrays, functions, form handling, and string operations**.
+Each file (`Q1–Q6`) represents a separate task for practice and understanding.
+
+---
+
+## 📂 Files Included
+
+```id="2y6h7a"
+Q1.php  → Associative array with loop  
+Q2.php  → Function to calculate rectangle perimeter  
+Q3.php  → Form handling using POST  
+Q4.php  → Form handling using GET  
+Q5.php  → Array operations  
+Q6.php  → String functions  
+```
+
+---
+
+## ⚙️ Requirements
+
+* PHP (7.x or higher)
+* Local server (XAMPP / WAMP / MAMP)
+* Web browser
+
+---
+
+## 🚀 How to Run
+
+1. Place the project folder inside:
+
+```id="o9zjht"
+htdocs/
+```
+2. Start **Apache** from XAMPP
+
+3. Open in browser:
+
+```id="4e6r8x"
+http://localhost/Homework%201/Q1.php
+```
+
+4. Run other files (`Q2–Q6`) similarly
+
+---
+## 👨‍💻 Author
+**Harshal Vernekar**
+
+## 📸 Screenshots
+![alt text](q1.jpg)
+![alt text](q2.jpg)
+![alt text](q3.jpg)
+![alt text](q4.jpg)
+![alt text](q5.jpg)
+![alt text](q6.jpg)

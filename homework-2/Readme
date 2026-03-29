@@ -1,0 +1,127 @@
+# 📘 Homework No. 02 – PHP & MySQL CRUD + Registration System
+
+## 📌 Overview
+
+This project demonstrates how to connect **PHP with MySQL (mysqli)** and perform full **CRUD operations** (Create, Read, Update, Delete).
+It also includes a **secure employee registration form with validation and password hashing**.
+
+
+## 📂 Folder Structure
+
+  Q4/
+  │── validate_db.php
+  │── validation.php
+|
+├── style.css
+├── db.php
+├── insert.php
+├── update.php
+├── delete.php
+└── show.php
+
+⚙️ Features
+
+ 🔹 Database Connection
+
+* Connects PHP to MySQL using **mysqli**
+* Uses database: `employee_db`
+
+---
+
+ 🔹 CRUD Operations
+
+* **Insert** → Add employee details (Name, Job Title, Salary)
+* **Update** → Modify employee salary using ID
+* **Delete** → Remove employee record by ID
+* **Show** → Display all employee records in table format
+
+---
+
+ 🔹 Table Structure
+
+| Column   | Description                  |
+| -------- | ---------------------------- |
+| id       | Primary Key (Auto Increment) |
+| name     | Employee Name                |
+| position | Job Title                    |
+| salary   | Employee Salary              |
+
+---
+
+ 🔹 Registration Form
+
+ 📋 Fields
+
+* Full Name
+* Email
+* Password
+* Confirm Password
+* Job Title
+
+ ✅ Validations
+
+* All fields are required
+* Password and Confirm Password must match
+* Email format validation
+
+ 🔐 Security
+
+* Password stored using `password_hash()`
+* Prepared statements used to prevent SQL injection
+
+---
+## 🚀 How to Run
+
+1. **Create Database**
+
+```sql
+CREATE DATABASE employee_db;
+```
+
+2. **Import / Create Table**
+
+```sql
+CREATE TABLE emp (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255),
+    job_title VARCHAR(100)
+);
+```
+
+3. **Move Project**
+
+* Place project folder inside:
+
+```
+htdocs/
+```
+
+4. **Start Server**
+
+* Open XAMPP
+* Start **Apache** and **MySQL**
+
+5. **Run Project**
+
+```
+http://localhost/Q4/show.php
+```
+---
+## 📌 Technologies Used
+
+* PHP
+* MySQL
+* HTML & CSS
+* XAMPP
+
+## 👨‍💻 Author
+**Harshal Vernekar**
+
+ 🖼️ Screenshots:-
+ ![alt text](insert.jpg)
+ ![alt text](update.jpg)
+ ![alt text](delete.jpg)
+  ![alt text](show.jpg)
+  ![alt text](Q4.jpg)
