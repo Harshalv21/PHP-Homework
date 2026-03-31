@@ -1,0 +1,56 @@
+📘 PHP Homework - 3
+
+This repository contains solutions for Homework 3 focused on practicing core PHP programming concepts such as functions, arrays, and logical problem-solving.
+
+🚀 Project Overview
+
+The objective of this homework is to strengthen understanding of PHP by implementing multiple functions and testing them using a separate PHP file.
+
+The project follows a structured approach:
+
+Writing reusable PHP functions
+Avoiding direct output inside functions
+Returning results and testing separately
+📂 Project Structure
+homework-3/
+│── homework3.php        # Main file containing all PHP functions
+│── README.md            # Project documentation
+🛠️ Features
+📌 Implementation of multiple PHP functions
+📌 Use of arrays and associative arrays
+📌 Function-based logic building
+📌 Separate testing file for validation
+📌 Clean and modular coding approach
+💻 Technologies Used
+PHP
+HTML (for testing output)
+XAMPP / Local Server
+⚙️ How to Run
+Install XAMPP or any PHP server
+
+Place the project folder inside:
+
+htdocs/
+Start Apache server
+
+Open browser and run:
+
+http://localhost/homework-3/hw3_testing.php
+📖 Learning Outcomes
+Understanding PHP syntax and functions
+Working with arrays and data structures
+Writing reusable and modular code
+Testing PHP functions effectively
+🧑‍💻 Author
+
+Harshal Vernekar
+GitHub: https://github.com/Harshalv21
+
+![alt text](register.png)
+![alt text](login.png)
+![alt text](home.png)
+![alt text](insert.png)
+![alt text](update.png)
+![alt text](show.png)
+![alt text](delete.png)
+![alt text](home.png)
